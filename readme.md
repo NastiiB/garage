@@ -95,4 +95,4 @@ Il a la capacité de fournir publiquement une facture qui retourne un tableau co
 La 1ere a pour valeur les dénominations de tous ses Articles séparés par une virgule.  
 La seconde a pour valeur la somme des prix de tous ses Articles.
 
-:muscle: Que La force soit avec vous :muscle:
+:muscle: Que La force soit avec vous :muscle: merci :)
