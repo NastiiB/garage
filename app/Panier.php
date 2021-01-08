@@ -12,7 +12,7 @@ class Panier
             if (! $article instanceof Article) {
                 throw new Exception("Le panier ne prend en compte que les articles.");
             }
-
+        }
         $this->articles=$articles;
     }
 

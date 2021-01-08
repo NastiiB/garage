@@ -5,12 +5,11 @@ namespace App;
 class Sapin implements Article
 {
     public string $name;
-    protected string $price;
+    protected int $price = 5;
 
     public function __construct(string $name)
     {
         $this->name=$name;
-        $this->price=$price;
     }
 
     public function giveDenomination(): string
