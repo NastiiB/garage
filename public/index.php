@@ -19,6 +19,8 @@ var_dump($camion->popularity());
 $panier = new Panier([$tuture, $camion]);
 var_dump($panier->giveBill());
 
+// Pas eu le temps de me pencher sur les erreurs
+
 //
 //$car = new Car('Peugeot 205');
 
