@@ -2,7 +2,7 @@
 
 namespace App;
 
-class Voiture extends Vehicule
+class Voiture extends Vehicule implements Article
 {
     public int $kmCount;
     protected int $constructionYear;

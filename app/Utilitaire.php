@@ -2,7 +2,7 @@
 
 namespace App;
 
-class Utilitaire extends Vehicule
+class Utilitaire extends Vehicule implements Article
 {
     public int $kmCount;
     public int $volume;
@@ -23,5 +23,16 @@ class Utilitaire extends Vehicule
     public function giveDenomination(): string
     {
         return $this->brandName." ".$this->name;
+    }
+
+    public function popularity(): string
+    {
+        if($this->volume > 11){
+            $popularity = "Populaire";
+        } else {
+            $popularity = "Impopulaire";
+        }
+
+        return $popularity;
     }
 }
